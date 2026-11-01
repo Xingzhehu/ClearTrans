@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="ClearTrans reconstruction maintainability rules"
+ xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+ <description>Explicit reconstruction defaults; replace with the archived study rule list when available.</description>
+ <rule ref="category/java/design.xml/CognitiveComplexity"/>
+ <rule ref="category/java/design.xml/CyclomaticComplexity"/>
+ <rule ref="category/java/design.xml/NcssCount"/>
+ <rule ref="category/java/design.xml/ExcessiveParameterList"/>
+ <rule ref="category/java/bestpractices.xml/UnusedLocalVariable"/>
+ <rule ref="category/java/codestyle.xml/ShortVariable"/>
+</ruleset>
